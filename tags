@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ANOTHER	Sample.fs	/^: ANOTHER$/;"	d
+BAR	Sample.fs	/^CREATE BAR 4 ALLOT$/;"	a
+FOO	Sample.fs	/^4807 CONSTANT FOO$/;"	c
+MAIN	Sample.fs	/^: MAIN$/;"	d
+MY-DEFINITION	Sample.fs	/^: MY-DEFINITION $/;"	d
+MY-STUFF	Sample.fs	/^variable MY-STUFF$/;"	v
+MY-VAR	Sample.fs	/^VARIABLE MY-VAR$/;"	v

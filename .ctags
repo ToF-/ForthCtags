@@ -1,4 +1,6 @@
 --langdef=Forth
 --langmap=Forth:.fs.4th.fb
---regex-Forth=/:[ \t]+([^ \t]+)/\1/d,definitions/
-
+--regex-Forth=/^:[ \t]+([^ \t]+)/\1/d,definitions/
+--regex-Forth=/VARIABLE[ \t]+([^ \t]+)/\1/v,variables/i
+--regex-Forth=/CONSTANT[ \t]+([^ \t]+)/\1/c,constants/i
+--regex-Forth=/CREATE[ \t]+([^ \t]+)/\1/a,arrays/i
