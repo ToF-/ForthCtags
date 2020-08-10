@@ -1,0 +1,4 @@
+--langdef=Forth
+--langmap=Forth:.fs.4th.fb
+--regex-Forth=/:[ \t]+([^ \t]+)/\1/d,definitions/
+
